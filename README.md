@@ -1,27 +1,32 @@
-# ComfyUI Setup with Flux Dev FP16 Model
+# ComfyUI Setup with Flux Dev FP16 Model on Paperspace Gradient
 
-This repository provides an easy setup for ComfyUI using the Flux Dev FP16 model. It is specifically designed for users working with **Paperspace Gradient**.
+This repository is intended to set up **ComfyUI** with the **Flux Dev FP16** model specifically for **Paperspace Gradient** users.
 
-> **Note:** This setup has been tested with the A4000 GPU. It's not recommended for GPUs below this specification.
+## Requirements
 
-## Prerequisites
+- **GPU:** Tested with **A4000**. It's not recommended to use GPUs with lower specifications.
+- **Storage:** During installation, you won't incur any persistent storage charges from Paperspace. The setup runs outside of the notebooks and storage directories, meaning your environment won't be saved, but you won't be charged for storage either.
+- **Python Environment:** The repository uses a Python virtual environment, ensuring no dependency conflicts.
 
-- A Paperspace Gradient account
-- A GPU with performance equivalent to or better than the A4000
+## Installation
 
-## Quick Start
-
-1. Open the terminal in your Paperspace Gradient environment.
-2. Run the following command to set up the environment:
+1. Open your Paperspace terminal.
+2. Run the following command to make the setup script executable and begin installation:
 
     ```bash
     chmod +x setup.sh && ./setup.sh
     ```
 
-3. Wait for the setup process to complete.
+3. Wait until the process displays a local URL.
+4. Open a new terminal and run the following command to make the local URL public via **Cloudflared**:
 
-That's it! Once the process finishes, your environment should be ready to go.
+    ```bash
+    cloudflared tunnel run comfyuiflux
+    ```
 
-## Disclaimer
+## Notes
 
-This repository is intended exclusively for users running their workflows on **Paperspace Gradient**. Other platforms may not be compatible or provide the same level of performance.
+- This setup is not persistent, so every time you restart your instance, you'll need to re-run the installation.
+- Make sure you are using a GPU with similar or higher specs than the A4000 for optimal performance.
+
+Happy coding!
