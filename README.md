@@ -31,7 +31,7 @@ But—and this is a big "but"—it also means this setup isn’t saved when you�
 
 ## 🖼️ Drag-and-Drop Magic (aka Workflow)
 Want to use it? Easy peasy. Just download the image below, and then drag and drop it into your ComfyUI interface. Voila! 🪄
-<img src="images/ComfyUI_00001_.png" alt="My Project Screenshot" width="90" />
+<img src="images/ComfyUI_00001_.png" alt="My Project Screenshot" width="200" />
 
 ---
 
