@@ -1,5 +1,5 @@
 #!/bin/bash
-mv /notebooks/ComfyUI-Paperspace/.cloudflared /root/
+cp -r /notebooks/ComfyUI-Paperspace/.cloudflared /root/
 cd /. && mkdir content && cd content
 python -m venv venv && . venv/bin/activate
 pip install pyngrok torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124
