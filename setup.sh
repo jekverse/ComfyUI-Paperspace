@@ -26,4 +26,4 @@ aria2c -x 16 -s 16 -d /content/ComfyUI/models/unet/ -o flux1-dev.safetensors --h
 #read TOKEN
 #ngrok config add-authtoken $TOKEN
 #cho "Token Ngrok berhasil ditambahkan!"
-python main.py
+python main.py & cloudflared tunnel run comfyuiflux &
