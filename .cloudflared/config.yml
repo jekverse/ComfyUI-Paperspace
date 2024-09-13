@@ -1,0 +1,7 @@
+tunnel: f006a5e1-5774-47a0-b866-c367cc2c5841
+credentials-file: /root/.cloudflared/f006a5e1-5774-47a0-b866-c367cc2c5841.json
+
+ingress:
+  - hostname: comfyuiflux.jekverse.site
+    service: http://localhost:8188
+  - service: http_status:404
