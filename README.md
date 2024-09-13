@@ -1,4 +1,5 @@
 # ComfyUI with Flux Dev FP16 Setup
+![acumalaka](images/ComfyUI.png)
 
 This repository is designed for setting up ComfyUI with the Flux Dev FP16 model, specifically optimized for users running on Paperspace Gradient.
 
