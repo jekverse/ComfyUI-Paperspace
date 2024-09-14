@@ -13,7 +13,7 @@ But—and this is a big "but"—it also means this setup isn’t saved when you�
 
 ## 🛠️ What’s Included?
 - **Virtual Environment** – We use a Python virtual environment here, so no more messy dependency conflicts. Let’s keep it clean, people. 🧼
-- **ComfyUI-Manager** – That’s right, you’re getting the manager too. It's like getting fries with your burger.
+- **ComfyUI-Manager** – That’s right, you’re getting the manager too.
 - **Cloudflared with Custom Domain** – Oh, and did I mention we’ve got a custom domain? Say hello to: `https://comfyuiflux.jekverse.id/`. Feel fancy already, don't you? 💻✨
 
 ## 🚀 Installation Instructions
@@ -33,10 +33,9 @@ But—and this is a big "but"—it also means this setup isn’t saved when you�
 Want to use it? Easy peasy. Just download the image below, and then drag and drop it into your ComfyUI interface. Voila! 🪄
 
 ![acumalaka](images/ComfyUI_00001_.png)
+
 ---
 
 Thanks for stopping by my repo! I’m Jek, and I hope you stay healthy always. 😊
 
 ---
-
-Let me know if there are any more changes you'd like!
