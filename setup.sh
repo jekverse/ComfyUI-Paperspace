@@ -22,9 +22,9 @@ aria2c -x 16 -s 16 -d /content/ComfyUI/models/clip/ -o clip_l.safetensors https:
 aria2c -x 16 -s 16 -d /content/ComfyUI/models/clip/ -o t5xxl_fp16.safetensors https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors
 aria2c -x 16 -s 16 -d /content/ComfyUI/models/vae/ -o ae.safetensors https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors
 aria2c -x 16 -s 16 -d /content/ComfyUI/models/unet/ -o flux1-dev.safetensors --header "Authorization: Bearer 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" https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors
-#echo "Masukkan token Ngrok Anda:"
-#read TOKEN
-#ngrok config add-authtoken $TOKEN
-#cho "Token Ngrok berhasil ditambahkan!"
-python main.py & cloudflared tunnel run comfyuiflux &
+echo "Masukkan token Ngrok Anda:"
+read TOKEN
+ngrok config add-authtoken $TOKEN
+cho "Token Ngrok berhasil ditambahkan!"
+python main.py & ngrok http http://localhost:8188
 
