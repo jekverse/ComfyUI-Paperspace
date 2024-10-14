@@ -14,7 +14,7 @@ But—and this is a big "but"—it also means this setup isn’t saved when you�
 ## 🛠️ What’s Included?
 - **Virtual Environment** – We use a Python virtual environment here, so no more messy dependency conflicts. Let’s keep it clean, people. 🧼
 - **ComfyUI-Manager** – That’s right, you’re getting the manager too.
-- **Cloudflared with Custom Domain** – Oh, and did I mention we’ve got a custom domain? Say hello to: `https://comfyuiflux.jekverse.id/`. Feel fancy already, don't you? 💻✨
+- **Public URL with Ngrok** – To use ComfyUI online, we are using ngrok to make Local URL to be Public URL
 
 ## 🚀 Installation Instructions
 
@@ -27,7 +27,7 @@ But—and this is a big "but"—it also means this setup isn’t saved when you�
 
 3. Wait a bit—grab a coffee if you must—and eventually, a local URL will appear in your terminal.
 
-4. Congrats! 🎉 You’re now running **ComfyUI** on `https://comfyuiflux.jekverse.id/`. You’re welcome. 🎩
+4. Congrats! 🎉 You’re now running **ComfyUI**. Just clik the url that appears on Terminal Output You’re welcome. 🎩
 
 ## 🖼️ Drag-and-Drop Magic (aka Workflow)
 Want to use it? Easy peasy. Just download the image below, and then drag and drop it into your ComfyUI interface. Voila! 🪄
